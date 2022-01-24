@@ -2,9 +2,21 @@ import { useEffect, useState } from 'react';
 
 const App = () => {
   return (
-    <div className="grid h-screen place-items-center">
-      <Grid />
-    </div>
+    <>
+      <h1 className="mt-16 text-6xl text-center">
+        React Wordle Clone{' '}
+        <a
+          href="https://github.com/Tylopilus/wordle"
+          className="underline"
+          target="_blank"
+          rel="noreferrer no-follow">
+          Github
+        </a>
+      </h1>
+      <div className="grid mt-16 place-items-center">
+        <Grid />
+      </div>
+    </>
   );
 };
 export default App;
